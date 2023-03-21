@@ -1,0 +1,40 @@
+.book__container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 36px;
+    text-align: center;
+}
+.book__title {
+    color: rgb(51 82 82);
+}
+.book__content {
+    display: flex;
+    text-align: start;
+    gap: 24px;
+    margin-bottom: 42px;
+}
+@media (max-width: 650px) {
+    .book__content {
+        display: flex;
+        flex-direction: column;
+    }   
+}
+.book__cover {
+    width: 200px;
+    height: 350px;
+}
+.book__info {
+    width: 100%;
+    background: antiquewhite;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.book__info_description {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.book__info_description > span {
+    font-weight: 500;
+}

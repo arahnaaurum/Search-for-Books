@@ -1,0 +1,17 @@
+.main__container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 36px;
+    text-align: center;
+}
+
+.books__amount > span {
+    color:rgb(51 82 82);
+}
+
+.books__container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
